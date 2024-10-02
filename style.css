@@ -13,6 +13,8 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+.header {
+}
 .nav{
     display: flex;
     font-family: 'Great Vibes', cursive;
@@ -33,11 +35,9 @@ body {
     list-style-type: none;
     justify-content: space-evenly;
     max-width: 95%;
-    align-items: center;
 }
 .nav-item {
-    display: flex;
-    gap: 5px;
+    padding: 10px;
 }
 
 .nav-link {
@@ -201,6 +201,19 @@ body {
 .whatsapp-link {
     color: white;
 }
+
+.footer {
+}
+
+.contato-section {
+}
+
+.address {
+}
+
 .address-link {
     color:white;
+}
+
+.footer-text {
 }
