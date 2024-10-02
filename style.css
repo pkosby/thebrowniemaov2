@@ -3,6 +3,8 @@ body {
     background-color: #e3e3d7;
     max-width: 98%;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .body-container{
@@ -24,20 +26,23 @@ body {
     font-family: 'Great Vibes', cursive;
     font-size: 35px;
     justify-content: center;
+    margin-top:20px;
 }
 @media (max-width: 768px) {
     .nav {
-        font-size: 5vw; /* Adjust font size based on viewport width for mobile */
+        font-size: 5vw;
     }
 }
 .nav-list {
     display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
-    max-width: 95%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    gap: 20px;
 }
 .nav-item {
-    padding: 10px;
 }
 
 .nav-link {
@@ -91,7 +96,7 @@ body {
 }
 @media (max-width: 768px) {
     .cta-btn {
-        font-size: 10vw; /* Adjust font size based on viewport width for mobile */
+        font-size: 10vw;
     }
 }
 .main {
@@ -173,13 +178,14 @@ body {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
 .cta-title{
     font-family: 'Great Vibes', cursive;
     font-size:40px;
 }
 @media (max-width: 768px) {
     .cta-title {
-        font-size: 10vw; /* Adjust font size based on viewport width for mobile */
+        font-size: 10vw;
     }
 }   
 .cta-text{
@@ -202,18 +208,6 @@ body {
     color: white;
 }
 
-.footer {
-}
-
-.contato-section {
-}
-
-.address {
-}
-
 .address-link {
     color:white;
-}
-
-.footer-text {
 }
