@@ -49,8 +49,8 @@ body {
     padding: 0px 15px;
     background-color: #750000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    max-width: 90%;
+    margin: 5px;
+    max-width: 80%;
     gap: 20px;
     font-size: 25px;
 }
@@ -166,7 +166,9 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align: justify;
+    word-spacing: -3px;
+    margin:20px;
     color: white;
     font-size: 18px;
     padding: 20px;
@@ -275,6 +277,7 @@ body {
     align-items: center;
     color: white;
     font-size: 20px;
+    margin: 20px;
     padding: 20px;
     background-color: #750000;
     border-radius: 10px;
